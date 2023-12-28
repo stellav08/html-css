@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>abra esse site em dispositivos diferentes ou amente e diminua o tamanho de seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto_p.png">
+     <source media="(max-width: 1050px )" srcset="imagens/foto_m.png">
+        <img src="imagens/foto_g.png" alt="foto G flexivel">
+    </picture>
+
+    <h1>Audios</h1>
+    <p>Reproduzindo audios</p>
+    <audio src="midia/WhatsApp Audio 2023-12-12 at 13.25.19.mp4" controls autoplay></audio>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/WhatsApp Audio 2023-12-12 at 13.25.19.mp4" type="">
+    </audio>
+    
+</body>
+</html>
